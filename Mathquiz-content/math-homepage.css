@@ -1,0 +1,274 @@
+
+
+.logo{
+  font-weight: 1000px;
+  font-size: 90px;
+  position: relative;
+  left: 7px;
+  top: 110px;
+  text-align: center;
+  align-content: center;
+}
+
+.start-button {
+  color: #04d9ff;
+  font-weight: bold;
+  font-size: 20px;
+  background: transparent;
+  width: 200px;
+  height: 80px;
+  border-color: #04d9ff;
+  border-radius: 30px;
+  border-width: 5px;
+  position: absolute;
+  bottom: 200px;
+  left: 590px;
+  align-content: center;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf2836cb-5893-4a6c-b156-5a89d94fc721/dce61tw-3cfde162-fb53-4b5a-96cd-ae1df756df65.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NmMjgzNmNiLTU4OTMtNGE2Yy1iMTU2LTVhODlkOTRmYzcyMVwvZGNlNjF0dy0zY2ZkZTE2Mi1mYjUzLTRiNWEtOTZjZC1hZTFkZjc1NmRmNjUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vEwtplf1FBeP01zGIPa3zIMEz7mUudddreie2iCbe9Q);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.start-button {
+  text-shadow: 0px 0px 12px #00badc,
+  0px 0px 1px  #eafbff;
+  box-shadow:  0px 0px 20px #00badc,
+    inset  0px 0px 20px #00badc, /*inset adds shadow inside the element*/
+    0px 0px 1px  #eafbff,
+    0px 0px 1px  #eafbff,
+  1px 3px 1px  #00a6c3,
+  1px 4px 1px  #00a6c3,
+  1px 5px 1px #00a6c3,
+  1px 6px 1px #00839b,
+  1px 7px 1px #00839b,
+  1px 8px 1px #00839b,
+  1px 9px 1px #005361,
+  1px 10px 1px #005361,
+  1px 10px 6px #003039,
+     1px 22px 10px #003039,
+     1px 15px 35px #001b20,
+     1px 30px 60px #001b20;
+
+}
+
+@keyframes begin {
+  0% {
+    text-shadow:
+       0px 0px 50px #00badc;
+  }
+
+  20% {
+    text-shadow: 0px 0px 12px #00badc,
+    0px 0px 1px  #eafbff;
+    box-shadow:  0px 0px 20px #00badc,
+      inset  0px 0px 20px #00badc, /*inset adds shadow inside the element*/
+      0px 0px 1px  #eafbff,
+      0px 0px 1px  #eafbff,
+    1px 3px 1px  #00a6c3,
+    1px 4px 1px  #00a6c3,
+    1px 5px 1px #00a6c3,
+    1px 6px 1px #00839b,
+    1px 7px 1px #00839b,
+    1px 8px 1px #00839b,
+    1px 9px 1px #005361,
+    1px 10px 1px #005361,
+    1px 10px 6px #003039,
+       1px 22px 10px #003039,
+       1px 15px 35px #001b20,
+       1px 30px 60px #001b20;
+  }
+
+  40% {
+    text-shadow: 0px 0px 12px #00badc,
+    0px 0px 1px  #eafbff;
+    box-shadow:  0px 0px 20px #00badc,
+      inset  0px 0px 20px #00badc, /*inset adds shadow inside the element*/
+      0px 0px 1px  #eafbff,
+      0px 0px 1px  #eafbff,
+    1px 3px 1px  #00a6c3,
+    1px 4px 1px  #00a6c3,
+    1px 5px 1px #00a6c3,
+    1px 6px 1px #00839b,
+    1px 7px 1px #00839b,
+    1px 8px 1px #00839b,
+    1px 9px 1px #005361,
+    1px 10px 1px #005361,
+    1px 10px 6px #003039,
+       1px 22px 10px #003039,
+       1px 15px 35px #001b20,
+       1px 30px 60px #001b20;
+  }
+  60% {
+    text-shadow: 0px 0px 12px #00badc,
+    0px 0px 1px  #eafbff;
+    box-shadow:  0px 0px 20px #00badc,
+      inset  0px 0px 10px #00badc, /*inset adds shadow inside the element*/
+      0px 0px 1px  #eafbff,
+      0px 0px 1px  #eafbff,
+    1px 3px 0px  #00a6c3,
+    1px 4px 1px  #00a6c3,
+    1px 5px 1px #00a6c3,
+    1px 6px 1px #00839b,
+    1px 7px 1px #00839b,
+    1px 8px 1px #00839b,
+    1px 9px 1px #005361,
+    1px 10px 1px #005361,
+    1px 10px 6px #003039,
+       1px 22px 10px #003039,
+       1px 15px 35px #001b20,
+       1px 30px 60px #001b20;
+  }
+  80% {
+    text-shadow: 0px 0px 12px #00badc,
+    0px 0px 1px  #eafbff;
+    box-shadow:  0px 0px 0px #00badc,
+      inset  0px 0px 10px #00badc, /*inset adds shadow inside the element*/
+      0px 0px 1px  #eafbff,
+      0px 0px 1px  #eafbff,
+    1px 3px 1px  #00a6c3,
+    1px 4px 1px  #00a6c3,
+    1px 5px 1px #00a6c3,
+    1px 6px 1px #00839b,
+    1px 7px 1px #00839b,
+    1px 8px 1px #00839b,
+    1px 9px 1px #005361,
+    1px 10px 1px #005361,
+    1px 10px 6px #003039,
+       1px 22px 10px #003039,
+       1px 15px 35px #001b20,
+       1px 30px 60px #001b20;
+}
+}
+
+.start-button {
+  animation: begin 3s linear infinite;
+}
+
+.letter {
+  color: #fe17a2;
+  text-shadow: 1px 1px 1px #410027,
+  1px 2px 1px  #410027,
+  1px 3px 1px  #410027,
+  1px 4px 1px  #410027,
+  1px 5px 1px #30001d,
+  1px 6px 1px #30001d,
+  1px 7px 1px #30001d,
+  1px 8px 1px #30001d,
+  1px 9px 1px #200013,
+  1px 10px 1px #200013,
+  1px 10px 6px #101010,
+     1px 22px 10px #101010,
+     1px 15px 35px #101010,
+     1px 30px 60px #101010;
+
+}
+
+
+
+
+
+@keyframes intro {
+  0% {
+    text-shadow:
+       0px 0px 50px #fe019a;
+  }
+
+  20% {
+    text-shadow:
+    1px 2px 1px  #410027,
+    1px 3px 1px  #410027,
+    1px 4px 1px  #410027,
+    1px 5px 1px #30001d,
+    1px 6px 1px #30001d,
+    1px 7px 1px #30001d,
+    1px 8px 1px #30001d,
+    1px 9px 1px #200013,
+    1px 10px 1px #200013,
+    1px 10px 6px #101010,
+       1px 22px 10px #101010,
+       1px 15px 35px #101010,
+       1px 30px 60px #101010,
+       0px 0px 50px #ff44cc;
+  }
+
+  40% {
+    text-shadow:
+    1px 2px 1px  #410027,
+    1px 3px 1px  #410027,
+    1px 4px 1px  #410027,
+    1px 5px 1px #30001d,
+    1px 6px 1px #30001d,
+    1px 7px 1px #30001d,
+    1px 8px 1px #30001d,
+    1px 9px 1px #200013,
+    1px 10px 1px #200013,
+    1px 10px 6px #101010,
+       1px 22px 10px #101010,
+       1px 15px 35px #101010,
+       1px 30px 60px #101010,
+       0px 0px 30px #fe2fac;
+  }
+  60% {
+    text-shadow:
+    1px 2px 1px  #410027,
+    1px 3px 1px  #410027,
+    1px 4px 1px  #410027,
+    1px 5px 1px #30001d,
+    1px 6px 1px #30001d,
+    1px 7px 1px #30001d,
+    1px 8px 1px #30001d,
+    1px 9px 1px #200013,
+    1px 10px 1px #200013,
+    1px 10px 6px #101010,
+       1px 22px 10px #101010,
+       1px 15px 35px #101010,
+       1px 30px 60px #101010
+       0px 0px 0.5px #c30076;
+  }
+  80% {
+    text-shadow:
+    1px 2px 1px  #410027,
+    1px 3px 1px  #410027,
+    1px 4px 1px  #410027,
+    1px 5px 1px #30001d,
+    1px 6px 1px #30001d,
+    1px 7px 1px #30001d,
+    1px 8px 1px #30001d,
+    1px 9px 1px #200013,
+    1px 10px 1px #200013,
+    1px 10px 6px #101010,
+       1px 22px 10px #101010,
+       1px 15px 35px #101010,
+       1px 30px 60px #101010,
+       0px 0px 35px #fe2fac;
+  }
+  100% {
+    text-shadow:
+       0px 0px 0.5px #fe019a;
+  }
+}
+
+
+.letter {
+  animation: intro 3s linear infinite;
+}
+
+.BGM {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+<<<<<<< current
+
+=======
+
+>>>>>>> before discard
+}

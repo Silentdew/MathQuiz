@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Maths Quiz</title>
+    <link rel="stylesheet" href="mathquiz.css">
+  </head>
+  <body class="">
+    <div class='main-ui'>
+      <p class="problem"></p>
+
+      <form action=""class="form">
+        <input type="text" class="field" autocomplete="off">
+        <button type="button">Submit</button>
+      </form>
+      <p class="text-reminder">
+        <span style="font-size: 18px;">Enter the correct answers to the following maths expressions to complete the Maths quiz.</span>
+        <br>
+        You need <span class="points-needed">10</span> more points, and are allowed to make <span class="mistakes-allowed">2</span> more mistakes.
+        </p>
+
+
+      <div class="progress">
+        <div class="boxes">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+        <div class="progress-inner"></div><!--This will be the element that animates of fills up with green and the boxes i.e "<div class="box"></div>"are going to be empty placeholders-->
+      </div>
+    </div>
+    <a href="file:///C:/Users/eFatIbr2/OneDrive%20-%20Eskilstuna%20Kommun/Projects/Web%20Design/Math%20Quiz/math-homepage.html">
+<button type="button" class="return">Return</button></a>
+    <div class="overlay">
+      <div class="overlay-inner">
+        <p class="end-message"></p>
+        <button class="reset-button" type="button">Start Over</button>
+      </div>
+    </div>
+
+
+    <div class="BGM">
+    <audio controls loop>
+        <source src="file:///C:/Users/eFatIbr2/OneDrive%20-%20Eskilstuna%20Kommun/Projects/Web%20Design/Math%20quiz/Audios/Powerup.mp3" type="audio/mp3">
+    </audio>
+  </div>
+
+<script src="mathquiz.js"> </script>
+  </body>
+</html>

@@ -1,0 +1,238 @@
+.boxes {
+  display: flex; /*we use flex to make each div to sit on a single line*/
+  width: 100%;
+}
+
+.progress{
+  border: 1px solid #c7c7c7;
+  border-right: none;
+  position: relative;
+  bottom: 80px;
+}
+
+.progress-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #df00fe;
+  opacity: .57;
+  transform: scaleX(0);
+  transform-origin: center left;
+  transition: transform .4s ease-out;
+}
+
+.box {
+  height: 50px;
+  border-right: 1px solid #c7c7c7;
+  flex: 1;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: (rgba(0, 0, 0, 0.75));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .33s ease-out;
+  transform: scale(1.2);
+}
+body.overlay-is-open .overlay{
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+
+body.overlay-is-open .main-ui{
+  filter: blur(6px);
+}
+
+@keyframes showError {
+  20% {
+    transform: scale(1.2);
+    color: #ff1818;
+  }
+  40% {
+    transform: scale(1.4);
+        color: #ff1818;
+  }
+  60% {
+    transform: scale(1.6);
+        color: #ff1818;
+  }
+  80% {
+    transform: scale(1.4);
+        color: #ff1818;
+  }
+  90% {
+    transform: scale(1.2);
+        color: #ff1818;
+  }
+  100% {
+    transform: scale(1);
+        color: #ff1818;
+  }
+
+}
+
+.animate-wrong {
+  animation: showError .33s ;
+}
+
+@keyframes showRight {
+  20% {
+    transform: scale(1.2);
+    color: #df00fe;
+  }
+  40% {
+    transform: scale(1.4);
+    color: #df00fe;
+  }
+  60% {
+    transform: scale(1.6);
+    color: #df00fe;
+  }
+  80% {
+    transform: scale(1.4);
+    color: #df00fe;
+  }
+  90% {
+    transform: scale(1.2);
+    color: #df00fe;
+  }
+  100% {
+    transform: scale(1);
+    color: #df00fe;
+  }
+}
+
+.animate-right {
+  animation:  .33s showRight;
+}
+
+.problem{
+  color: #fe60bf;
+  text-align: center;
+  line-height: 4;
+  font-size: 450%;
+  text-shadow: 1px 1px 1px #410027,
+  1px 2px 1px  #410027,
+  1px 3px 1px  #410027,
+  1px 4px 1px  #410027,
+  1px 5px 1px #30001d,
+  1px 6px 1px #30001d,
+  1px 7px 1px #30001d,
+  1px 8px 1px #30001d,
+  1px 9px 1px #200013,
+  1px 10px 1px #200013,
+  1px 10px 6px #101010,
+     1px 22px 10px #101010,
+     1px 15px 35px #101010,
+     1px 30px 60px #101010;
+}
+
+
+.form {
+  position: relative;
+  bottom: 100px;
+  text-align: center;
+}
+
+.field {
+  width: 190px;
+  height: 50px;
+  font-size: 15px;
+  color: #fe60bf;
+  font-weight: bold;
+  background: transparent;
+  border-color: #00badc;
+  box-shadow:  0px 0px 20px #00badc,
+    inset  0px 0px 20px #00badc, /*inset adds shadow inside the element*/
+    0px 0px 1px  #eafbff,
+    0px 0px 1px  #eafbff,
+  1px 3px 1px  #00a6c3,
+  1px 4px 1px  #00a6c3,
+  1px 5px 1px #00a6c3,
+  1px 6px 1px #00839b,
+  1px 7px 1px #00839b,
+  1px 8px 1px #00839b,
+  1px 9px 1px #005361,
+  1px 10px 1px #005361,
+  1px 10px 6px #003039,
+     1px 22px 10px #003039,
+     1px 15px 35px #001b20,
+     1px 30px 60px #001b20;
+}
+button{
+  color: #00badc;
+  width:100px;
+  height: 50px;
+  font-size: 20px;
+  background: transparent;
+  border-color: #00badc;
+  text-shadow: 0px 0px 12px #00badc,
+  0px 0px 1px  #eafbff;
+  box-shadow:  0px 0px 20px #00badc,
+    inset  0px 0px 20px #00badc, /*inset adds shadow inside the element*/
+    0px 0px 1px  #eafbff,
+    0px 0px 1px  #eafbff,
+  1px 3px 1px  #00a6c3,
+  1px 4px 1px  #00a6c3,
+  1px 5px 1px #00a6c3,
+  1px 6px 1px #00839b,
+  1px 7px 1px #00839b,
+  1px 8px 1px #00839b,
+  1px 9px 1px #005361,
+  1px 10px 1px #005361,
+  1px 10px 6px #003039,
+     1px 22px 10px #003039,
+     1px 15px 35px #001b20,
+     1px 30px 60px #001b20;
+}
+
+.text-reminder {
+  color: #fedaf0;
+  font-size: 150%;
+  text-align: center;
+  position: relative;
+  bottom: 85px;
+}
+
+.end-message {
+  font-size: 60px;
+  color: #fe60bf;
+}
+
+
+.reset-button {
+  position: relative;
+  bottom: 45px;
+  left: 105px;
+  width: 150px;
+  align-content: center;
+  text-align: center;
+}
+
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf2836cb-5893-4a6c-b156-5a89d94fc721/dce61tw-3cfde162-fb53-4b5a-96cd-ae1df756df65.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NmMjgzNmNiLTU4OTMtNGE2Yy1iMTU2LTVhODlkOTRmYzcyMVwvZGNlNjF0dy0zY2ZkZTE2Mi1mYjUzLTRiNWEtOTZjZC1hZTFkZjc1NmRmNjUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vEwtplf1FBeP01zGIPa3zIMEz7mUudddreie2iCbe9Q);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.return:hover {
+  cursor: pointer;
+}
+
+.BGM {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+
+}
