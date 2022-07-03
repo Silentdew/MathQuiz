@@ -229,10 +229,3 @@ body {
 .return:hover {
   cursor: pointer;
 }
-
-.BGM {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-
-}
