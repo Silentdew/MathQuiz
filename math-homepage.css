@@ -261,14 +261,3 @@ body {
 .letter {
   animation: intro 3s linear infinite;
 }
-
-.BGM {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-<<<<<<< current
-
-=======
-
->>>>>>> before discard
-}
